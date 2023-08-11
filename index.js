@@ -48,7 +48,7 @@ function getTextFromPart(part) {
 function sendEmail(body) { 
  
   const headers = { "Content-Type": "application/json" };
-  return axios.post(`https://localhost:7056/api/Email/actionsitems`, body, {
+  return axios.post(`https://localhost:7056/api/Email/actionsitemsmail`, body, {
     headers,
     httpsAgent: agent,
   });
