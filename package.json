@@ -8,6 +8,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.4.0",
     "express": "^4.18.2",
     "googleapis": "^124.0.0",
     "opn": "^6.0.0"
